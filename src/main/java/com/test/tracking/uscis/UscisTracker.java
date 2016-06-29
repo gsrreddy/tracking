@@ -18,7 +18,7 @@ public class UscisTracker {
 
 	// Number of cases starting from tracking number
 	static Integer NUMBER_OF_CASES = 500;
-	
+
 	WebDriverWait driverWait;
 
 	static final int CLOSE_TIME = 60000;
@@ -28,6 +28,9 @@ public class UscisTracker {
 
 	// check the report for approve I765 forms
 	static final String HISTORY_FILE = "./output/history.txt";
+
+	// check the report for approve I765 forms
+	static final String ERROR_FILE = "./output/error.txt";
 
 	WebDriver driver;
 
@@ -49,11 +52,8 @@ public class UscisTracker {
 	public static void main(String[] args) throws InterruptedException {
 		UscisTracker ut = new UscisTracker();
 		try {
-			FileUtil.appendFile(HISTORY_FILE,
-					"\r\n*****************************************************************************************************\r\n");
-			FileUtil.appendFile(HISTORY_FILE, "Running the report for 500 records" + new Date().toString());
-			FileUtil.appendFile(HISTORY_FILE,
-					"\r\n*****************************************************************************************************\r\n");
+			writeTitle(HISTORY_FILE);
+			writeTitle(ERROR_FILE);
 			ut.getLatestApproved();
 			Thread.sleep(CLOSE_TIME);
 
@@ -65,9 +65,18 @@ public class UscisTracker {
 		return;
 	}
 
+	private static void writeTitle(String fileName) {
+		FileUtil.appendFile(fileName,
+				"\r\n*****************************************************************************************************\r\n");
+		FileUtil.appendFile(fileName, "Running the report for " + NUMBER_OF_CASES + " records on -> " + new Date().toString());
+		FileUtil.appendFile(fileName,
+				"\r\n*****************************************************************************************************\r\n");
+	}
+
 	private void getLatestApproved() {
 		boolean caseStatus = true;
-		int approved = 0, received = 0, transferred = 0, delivered = 0, queried = 0, queryAnswered = 0, other = 0;
+		int approved = 0, received = 0, transferred = 0, delivered = 0, queried = 0, queryAnswered = 0, rejected = 0,
+				other = 0;
 		String fileText = FileUtil.readFromFile(TRACKING_FILE);
 
 		int track = (fileText == null || fileText.isEmpty()) ? tracking : tracking;
@@ -90,45 +99,49 @@ public class UscisTracker {
 			case "Notice Explaining USCIS' Actions Was Mailed":
 				queried++;
 				break;
+			case "Case Was Rejected":
+				rejected++;
+				break;
 			case "Response To USCIS' Request For Evidence Was Received":
 				queryAnswered++;
 				break;
 			case "Card Was Delivered To Me By The Post Office":
+			case "Card Was Mailed To Me":
 				delivered++;
 				break;
 			default:
 				System.out.println("case no ->" + track + " and status ->" + status);
+				FileUtil.appendFile(ERROR_FILE, "case no ->" + track + " and status ->" + status + "\r\n");
 				other++;
 
 			}
 
-			FileUtil.writeFile(TRACKING_FILE,
-					"\r\n*****************************************************************************************************\r\n");
-			FileUtil.appendFile(TRACKING_FILE, "Running the report " + new Date().toString());
-			FileUtil.appendFile(TRACKING_FILE,
-					"\r\n*****************************************************************************************************\r\n");
-			FileUtil.writeFile(TRACKING_FILE, String.format("%-15s %-15s %-15s %-15s %-15s %-15s %-15s %s", "approved",
-					"received", "queried", "queryAnswered", "delivered", "transferred", "other", "\r\n"));
-			FileUtil.appendFile(TRACKING_FILE,
-					"---------------------------------------------------------------------------------------------------------------------------------------------\r\n");
-			FileUtil.appendFile(TRACKING_FILE, String.format("%-15d %-15d %-15d %-15d %-15d %-15d %-15d  %s", approved,
-					received, queried, queryAnswered, delivered, transferred, other, "\r\n"));
+			FileUtil.writeFile(TRACKING_FILE, "");
+			writeTitle(TRACKING_FILE);
+			summaryReport(TRACKING_FILE, received, approved, delivered, queried, rejected, queryAnswered, transferred,
+					other);
 
 			track++;
 
 		}
-		FileUtil.appendFile(HISTORY_FILE,
-				"---------------------------------------------------------------------------------------------------------------------------------------------\r\n");
-		FileUtil.appendFile(HISTORY_FILE, String.format("%-15s %-15s %-15s %-15s %-15s %-15s %-15s %s", "approved",
-				"received", "queried", "queryAnswered", "delivered", "transferred", "other", "\r\n"));
-		FileUtil.appendFile(HISTORY_FILE,
-				"---------------------------------------------------------------------------------------------------------------------------------------------\r\n");
-		FileUtil.appendFile(HISTORY_FILE, String.format("%-15d %-15d %-15d %-15d %-15d %-15d %-15d  %s", approved,
-				received, queried, queryAnswered, delivered, transferred, other, "\r\n"));
-		FileUtil.appendFile(HISTORY_FILE,
-				"---------------------------------------------------------------------------------------------------------------------------------------------\r\n");
+		summaryReport(HISTORY_FILE, received, approved, delivered, queried, rejected, queryAnswered, transferred,
+				other);
 		// FileUtil.writeFile(TRACKING_FILE, new Integer(--track).toString());
 
+	}
+
+	private void summaryReport(String fileName, int received, int approved, int delivered, int queried, int rejected,
+			int queryAnswered, int transferred, int other) {
+		FileUtil.appendFile(fileName,
+				"---------------------------------------------------------------------------------------------------------------------------------------------\r\n");
+		FileUtil.appendFile(fileName, String.format("%-15s %-15s %-15s %-15s %-15s %-15s %-15s %-15s %s", "received",
+				"approved", "delivered", "queried", "rejected", "queryAnswered", "transferred", "other", "\r\n"));
+		FileUtil.appendFile(fileName,
+				"---------------------------------------------------------------------------------------------------------------------------------------------\r\n");
+		FileUtil.appendFile(fileName, String.format("%-15d %-15d %-15d %-15d %-15d %-15d %-15d %-15d  %s", received,
+				approved, delivered, queried, rejected, queryAnswered, transferred, other, "\r\n"));
+		FileUtil.appendFile(fileName,
+				"---------------------------------------------------------------------------------------------------------------------------------------------\r\n");
 	}
 
 	/**
@@ -152,19 +165,32 @@ public class UscisTracker {
 
 		formType = (formType.startsWith("I-")) ? formType : "";
 
-		// record.append(date).append("
-		// ").append(PREFIX_CENTER).append(track).append("
-		// ").append(formType).append("
-		// ").append(statusEl.getText()).append("\n");
+		Formatter formatter = new Formatter();
+		String record = formatter
+				.format("%-20s %-20s %-10s %s", date, PREFIX_CENTER + track, formType, statusEl.getText() + "\r\n")
+				.toString();
+		formatter.close();
 
-		if ("Case Was Approved".equalsIgnoreCase(statusEl.getText()) && "I-765".equalsIgnoreCase(formType)) {
-			Formatter formatter = new Formatter();
-			String record = formatter
-					.format("%-20s %-20s %-10s %s", date, PREFIX_CENTER + track, formType, statusEl.getText() + "\r\n")
-					.toString();
-			formatter.close();
+		switch (statusEl.getText()) {
+		case "Case Was Approved":
 			FileUtil.appendFile(HISTORY_FILE, record);
-			System.out.println(record);
+			break;
+		case "Case Was Received":
+			break;
+		case "Case Was Transferred And A New Office Has Jurisdiction":
+		case "Case Transferred To Another Office":
+			break;
+		case "Request for Additional Evidence Was Mailed":
+		case "Notice Explaining USCIS' Actions Was Mailed":
+			break;
+		case "Response To USCIS' Request For Evidence Was Received":
+			break;
+		case "Card Was Delivered To Me By The Post Office":
+		case "Card Was Mailed To Me":
+			FileUtil.appendFile(HISTORY_FILE, record);
+			break;
+		default:
+
 		}
 
 		return statusEl.getText();

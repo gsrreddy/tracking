@@ -1,0 +1,351 @@
+*****************************************************************************************************
+Running the report for 100 recordsFri Jun 24 23:14:40 EDT 2016
+*****************************************************************************************************
+case no ->1690185953 and status ->Correspondence Was Received And USCIS Is Reviewing It
+case no ->1690185982 and status ->Decision Notice Mailed
+
+*****************************************************************************************************
+Running the report for 500 recordsFri Jun 24 23:17:11 EDT 2016
+*****************************************************************************************************
+case no ->1690185953 and status ->Correspondence Was Received And USCIS Is Reviewing It
+case no ->1690185982 and status ->Decision Notice Mailed
+case no ->1690186011 and status ->Name Was Updated
+case no ->1690186028 and status ->Correspondence Was Received And USCIS Is Reviewing It
+case no ->1690186037 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186038 and status ->Case Rejected For Incorrect Fee And Form Not Signed
+case no ->1690186039 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186040 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186041 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186042 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186046 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186047 and status ->Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted
+case no ->1690186048 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186069 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186120 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186121 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186122 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186123 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186124 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186125 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186126 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186137 and status ->Decision Notice Mailed
+case no ->1690186138 and status ->Notice Was Returned To USCIS Because The Post Office Could Not Deliver It
+case no ->1690186149 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186150 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186151 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186152 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186153 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186154 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186155 and status ->Case Rejected For Incorrect Fee And Form Not Signed
+case no ->1690186156 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186157 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186181 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186182 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186183 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186184 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186185 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186186 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186187 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186188 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186189 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186190 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186191 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186192 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186193 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186215 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186216 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186217 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186218 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186219 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186220 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186221 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186222 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186223 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186224 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186225 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186226 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186227 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186228 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186229 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186230 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186231 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186237 and status ->Fees Were Waived
+case no ->1690186267 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186283 and status ->Fees Were Waived
+case no ->1690186284 and status ->Fees Were Waived
+case no ->1690186285 and status ->Fingerprint Fee Was Received
+case no ->1690186286 and status ->Case Is Pending at a Local Office
+case no ->1690186289 and status ->Name Was Updated
+case no ->1690186290 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186291 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186292 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186293 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186303 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186304 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186305 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186306 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186307 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186308 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186309 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186310 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186311 and status ->Case Rejected For Incorrect Fee And Form Not Signed
+case no ->1690186330 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186331 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186332 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186333 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186334 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186335 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186343 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186344 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186345 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186346 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186347 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186348 and status ->Case Rejected For Incorrect Fee And Form Not Signed
+case no ->1690186349 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186350 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186351 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186352 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186353 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186361 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186366 and status ->Fingerprint Fee Was Received
+case no ->1690186367 and status ->Case Is Pending at a Local Office
+case no ->1690186368 and status ->Fingerprint Fee Was Received
+case no ->1690186369 and status ->Case Is Pending at a Local Office
+
+*****************************************************************************************************
+Running the report for 500 recordsSun Jun 26 12:46:00 EDT 2016
+*****************************************************************************************************
+case no ->1690185953 and status ->Correspondence Was Received And USCIS Is Reviewing It
+case no ->1690185982 and status ->Decision Notice Mailed
+case no ->1690186011 and status ->Name Was Updated
+case no ->1690186028 and status ->Correspondence Was Received And USCIS Is Reviewing It
+case no ->1690186037 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186038 and status ->Case Rejected For Incorrect Fee And Form Not Signed
+case no ->1690186039 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186040 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186041 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186042 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186046 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186047 and status ->Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted
+case no ->1690186048 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186069 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186120 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186121 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186122 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186123 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186124 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186125 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186126 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186137 and status ->Decision Notice Mailed
+case no ->1690186138 and status ->Notice Was Returned To USCIS Because The Post Office Could Not Deliver It
+case no ->1690186149 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186150 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186151 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186152 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186153 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186154 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186155 and status ->Case Rejected For Incorrect Fee And Form Not Signed
+case no ->1690186156 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186157 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186181 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186182 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186183 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186184 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186185 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186186 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186187 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186188 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186189 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186190 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186191 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186192 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186193 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186215 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186216 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186217 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186218 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186219 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186220 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186221 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186222 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186223 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186224 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186225 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186226 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186227 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186228 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186229 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186230 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186231 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186237 and status ->Fees Were Waived
+case no ->1690186267 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186283 and status ->Fees Were Waived
+case no ->1690186284 and status ->Fees Were Waived
+case no ->1690186285 and status ->Fingerprint Fee Was Received
+case no ->1690186286 and status ->Case Is Pending at a Local Office
+case no ->1690186289 and status ->Name Was Updated
+case no ->1690186290 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186291 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186292 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186293 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186303 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186304 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186305 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186306 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186307 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186308 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186309 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186310 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186311 and status ->Case Rejected For Incorrect Fee And Form Not Signed
+case no ->1690186330 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186331 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186332 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186333 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186334 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186335 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186343 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186344 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186345 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186346 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186347 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186348 and status ->Case Rejected For Incorrect Fee And Form Not Signed
+case no ->1690186349 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186350 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186351 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186352 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186353 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186361 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186366 and status ->Fingerprint Fee Was Received
+case no ->1690186367 and status ->Case Is Pending at a Local Office
+case no ->1690186368 and status ->Fingerprint Fee Was Received
+case no ->1690186369 and status ->Case Is Pending at a Local Office
+
+*****************************************************************************************************
+Running the report for 100 records on -> Sun Jun 26 12:51:40 EDT 2016
+*****************************************************************************************************
+case no ->1690185953 and status ->Correspondence Was Received And USCIS Is Reviewing It
+case no ->1690185982 and status ->Decision Notice Mailed
+
+*****************************************************************************************************
+Running the report for 100 records on -> Mon Jun 27 22:26:59 EDT 2016
+*****************************************************************************************************
+case no ->1690185953 and status ->Correspondence Was Received And USCIS Is Reviewing It
+case no ->1690185982 and status ->Decision Notice Mailed
+
+*****************************************************************************************************
+Running the report for 500 records on -> Mon Jun 27 22:30:08 EDT 2016
+*****************************************************************************************************
+case no ->1690185953 and status ->Correspondence Was Received And USCIS Is Reviewing It
+case no ->1690185982 and status ->Decision Notice Mailed
+case no ->1690186011 and status ->Name Was Updated
+case no ->1690186028 and status ->Correspondence Was Received And USCIS Is Reviewing It
+case no ->1690186037 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186038 and status ->Case Rejected For Incorrect Fee And Form Not Signed
+case no ->1690186039 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186040 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186041 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186042 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186046 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186047 and status ->Case Rejected Because The Version Of The Form I Sent Is No Longer Accepted
+case no ->1690186048 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186069 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186120 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186121 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186122 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186123 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186124 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186125 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186126 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186137 and status ->Decision Notice Mailed
+case no ->1690186138 and status ->Notice Was Returned To USCIS Because The Post Office Could Not Deliver It
+case no ->1690186149 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186150 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186151 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186152 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186153 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186154 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186155 and status ->Case Rejected For Incorrect Fee And Form Not Signed
+case no ->1690186156 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186157 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186181 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186182 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186183 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186184 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186185 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186186 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186187 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186188 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186189 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186190 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186191 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186192 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186193 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186215 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186216 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186217 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186218 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186219 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186220 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186221 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186222 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186223 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186224 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186225 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186226 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186227 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186228 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186229 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186230 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186231 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186237 and status ->Fees Were Waived
+case no ->1690186267 and status ->Case Was Rejected Because I Did Not Sign My Form
+case no ->1690186283 and status ->Fees Were Waived
+case no ->1690186284 and status ->Fees Were Waived
+case no ->1690186285 and status ->Fingerprint Fee Was Received
+case no ->1690186286 and status ->Case Is Pending at a Local Office
+case no ->1690186289 and status ->Name Was Updated
+case no ->1690186290 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186291 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186292 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186293 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186303 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186304 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186305 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186306 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186307 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186308 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186309 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186310 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186311 and status ->Case Rejected For Incorrect Fee And Form Not Signed
+case no ->1690186330 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186331 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186332 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186333 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186334 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186335 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186343 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186344 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186345 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186346 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186347 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186348 and status ->Case Rejected For Incorrect Fee And Form Not Signed
+case no ->1690186349 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186350 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186351 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186352 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186353 and status ->Case Was Rejected Because It Was Improperly Filed
+case no ->1690186355 and status ->New Card Is Being Produced
+case no ->1690186361 and status ->Case Rejected Because I Sent An Incorrect Fee
+case no ->1690186366 and status ->Fingerprint Fee Was Received
+case no ->1690186367 and status ->Case Is Pending at a Local Office
+case no ->1690186368 and status ->Fingerprint Fee Was Received
+case no ->1690186369 and status ->Case Is Pending at a Local Office
+
+*****************************************************************************************************
+Running the report for 500 records on -> Tue Jun 28 22:49:38 EDT 2016
+*****************************************************************************************************
+case no ->1690185953 and status ->Correspondence Was Received And USCIS Is Reviewing It
+case no ->1690185954 and status ->Name Was Updated
+case no ->1690185982 and status ->Decision Notice Mailed
+case no ->1690185992 and status ->Name Was Updated
+case no ->1690186011 and status ->Name Was Updated
