@@ -1,7 +1,16 @@
 package com.test.tracking.uscis;
 
+import static java.util.Comparator.comparing;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Date;
 import java.util.Formatter;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,11 +26,14 @@ public class UscisTracker {
 	static Integer tracking = 1690185902;
 
 	// Number of cases starting from tracking number
-	static Integer NUMBER_OF_CASES = 500;
+	static Integer NUMBER_OF_CASES = 100;
 
 	WebDriverWait driverWait;
 
 	static final int CLOSE_TIME = 60000;
+	
+	// Report for summary of cases it includes all.
+	static final String TRANSACTION_FILE = "./output/transaction.txt";
 
 	// Report for summary of cases it includes all.
 	static final String TRACKING_FILE = "./output/track.txt";
@@ -31,6 +43,10 @@ public class UscisTracker {
 
 	// check the report for approve I765 forms
 	static final String ERROR_FILE = "./output/error.txt";
+	
+	private List<Record> resultList = new ArrayList<Record>();
+	
+	DateFormat formatter = new SimpleDateFormat("MMMM dd, YYYY");
 
 	WebDriver driver;
 
@@ -126,6 +142,9 @@ public class UscisTracker {
 		}
 		summaryReport(HISTORY_FILE, received, approved, delivered, queried, rejected, queryAnswered, transferred,
 				other);
+		
+		prepareReport();
+		
 		// FileUtil.writeFile(TRACKING_FILE, new Integer(--track).toString());
 
 	}
@@ -149,52 +168,83 @@ public class UscisTracker {
 	 * @return
 	 */
 	private String getStatus(Integer track) {
+		
+		
 		driver.get(TRACKIT_URL + PREFIX_CENTER + track);
 		// StringBuilder record = new StringBuilder();
 		// (" Case ").append(PREFIX_CENTER).append(track.toString());
+		
+		Record record = new Record();
 
 		WebElement statusEl = driver.findElement(By.xpath("//div[contains(@class,'text-center')]/h1"));
 
 		WebElement descEl = driver.findElement(By.xpath("//div[contains(@class,'text-center')]/p"));
 
+		record.setCaseNumber(PREFIX_CENTER + track);
+		
 		String desc = descEl.getText();
+		record.setStatus(statusEl.getText());
 
 		String date = desc.substring(3, desc.indexOf("2016") + 4);
+		try {
+			record.setDate(DateFormat.getDateInstance().parse(date));
+		} catch (ParseException e) {
+			
+		}
 
 		String formType = desc.substring(desc.indexOf("Form") + 5, desc.indexOf("Form") + 10);
 
 		formType = (formType.startsWith("I-")) ? formType : "";
+		record.setCaseType(formType);
+		resultList.add(record);
 
 		Formatter formatter = new Formatter();
-		String record = formatter
+		String recordStr = formatter
 				.format("%-20s %-20s %-10s %s", date, PREFIX_CENTER + track, formType, statusEl.getText() + "\r\n")
 				.toString();
 		formatter.close();
-
-		switch (statusEl.getText()) {
-		case "Case Was Approved":
-			FileUtil.appendFile(HISTORY_FILE, record);
-			break;
-		case "Case Was Received":
-			break;
-		case "Case Was Transferred And A New Office Has Jurisdiction":
-		case "Case Transferred To Another Office":
-			break;
-		case "Request for Additional Evidence Was Mailed":
-		case "Notice Explaining USCIS' Actions Was Mailed":
-			break;
-		case "Response To USCIS' Request For Evidence Was Received":
-			break;
-		case "Card Was Delivered To Me By The Post Office":
-		case "Card Was Mailed To Me":
-			FileUtil.appendFile(HISTORY_FILE, record);
-			break;
-		default:
-
+		List<String> filterStatuses = Arrays.asList(new String[]{"I-539","I-131","I-102"});
+		
+		if(!filterStatuses.contains(formType)) {
+			FileUtil.appendFile(HISTORY_FILE, recordStr);
 		}
+
+//		switch (statusEl.getText()) {
+//		case "Case Was Approved":
+//			FileUtil.appendFile(HISTORY_FILE, recordStr);
+//			break;
+//		case "Case Was Received":
+//			break;
+//		case "Case Was Transferred And A New Office Has Jurisdiction":
+//		case "Case Transferred To Another Office":
+//			break;
+//		case "Request for Additional Evidence Was Mailed":
+//		case "Notice Explaining USCIS' Actions Was Mailed":
+//			break;
+//		case "Response To USCIS' Request For Evidence Was Received":
+//			break;
+//		case "Card Was Delivered To Me By The Post Office":
+//		case "Card Was Mailed To Me":
+//			FileUtil.appendFile(HISTORY_FILE, recordStr);
+//			break;
+//		default:
+//
+//		}
 
 		return statusEl.getText();
 
+	}
+	
+	private void prepareReport() {
+		
+		Collections.sort(resultList, comparing(Record::getDate));
+		Collections.reverse(resultList);
+		
+		
+		FileUtil.writeFile(TRANSACTION_FILE, "");
+		writeTitle(TRANSACTION_FILE);
+		FileUtil.appendFile(TRANSACTION_FILE, resultList);	
+		
 	}
 
 }

@@ -1,0 +1,104 @@
+
+*****************************************************************************************************
+Running the report for 100 records on -> Fri Jul 08 11:41:20 EDT 2016
+*****************************************************************************************************
+Jul 8, 2016          EAC1690185980        I-765      Case Was Transferred And A New Office Has Jurisdiction
+Jul 8, 2016          EAC1690185951        I-765      Case Was Transferred And A New Office Has Jurisdiction
+Jul 8, 2016          EAC1690185950        I-765      Case Was Transferred And A New Office Has Jurisdiction
+Jul 8, 2016          EAC1690185949        I-765      Case Was Transferred And A New Office Has Jurisdiction
+Jul 8, 2016          EAC1690185947        I-765      Case Was Transferred And A New Office Has Jurisdiction
+Jul 8, 2016          EAC1690185942        I-765      Case Was Transferred And A New Office Has Jurisdiction
+Jul 8, 2016          EAC1690185941        I-765      Case Was Transferred And A New Office Has Jurisdiction
+Jul 8, 2016          EAC1690185940        I-765      Case Was Transferred And A New Office Has Jurisdiction
+Jul 8, 2016          EAC1690185939        I-765      Case Was Transferred And A New Office Has Jurisdiction
+Jul 8, 2016          EAC1690185938        I-765      Case Was Transferred And A New Office Has Jurisdiction
+Jul 8, 2016          EAC1690185937        I-765      Case Was Transferred And A New Office Has Jurisdiction
+Jul 7, 2016          EAC1690185970        I-539      Request for Additional Evidence Was Mailed
+Jul 7, 2016          EAC1690185969        I-539      Request for Additional Evidence Was Mailed
+Jul 6, 2016          EAC1690185981        I-539      Case Was Approved
+Jul 6, 2016          EAC1690185910        I-539      Notice Was Returned To USCIS Because The Post Office Could Not Deliver It
+Jul 6, 2016          EAC1690185904        I-539      Response To USCIS' Request For Evidence Was Received
+Jul 5, 2016          EAC1690186000        I-539      Name Was Updated
+Jul 5, 2016          EAC1690185988        I-539      Name Was Updated
+Jul 5, 2016          EAC1690185958        I-539      Case Was Approved
+Jul 5, 2016          EAC1690185954        I-539      Request for Additional Evidence Was Mailed
+Jul 1, 2016          EAC1690185992        I-539      Case Was Approved
+Jul 1, 2016          EAC1690185984        I-539      Request for Additional Evidence Was Mailed
+Jul 1, 2016          EAC1690185956        I-539      Case Was Approved
+Jun 30, 2016         EAC1690185997                   Card Was Delivered To Me By The Post Office
+Jun 30, 2016         EAC1690185913        I-539      Decision Notice Mailed
+Jun 29, 2016         EAC1690186001                   Card Was Mailed To Me
+Jun 29, 2016         EAC1690185927                   Card Was Delivered To Me By The Post Office
+Jun 29, 2016         EAC1690185923                   Card Was Delivered To Me By The Post Office
+Jun 28, 2016         EAC1690185968        I-539      Case Was Approved
+Jun 28, 2016         EAC1690185967        I-539      Case Was Approved
+Jun 28, 2016         EAC1690185966        I-539      Case Was Approved
+Jun 28, 2016         EAC1690185943                   Card Was Delivered To Me By The Post Office
+Jun 28, 2016         EAC1690185931                   Card Was Delivered To Me By The Post Office
+Jun 27, 2016         EAC1690185909        I-539      Response To USCIS' Request For Evidence Was Received
+Jun 23, 2016         EAC1690185975        I-539      Case Was Approved
+Jun 22, 2016         EAC1690185982        I-539      Decision Notice Mailed
+Jun 22, 2016         EAC1690185912        I-539      Case Was Approved
+Jun 22, 2016         EAC1690185906        I-539      Response To USCIS' Request For Evidence Was Received
+Jun 21, 2016         EAC1690185986        I-539      Case Was Rejected
+Jun 21, 2016         EAC1690185961        I-539      Case Was Approved
+Jun 21, 2016         EAC1690185926        I-539      Case Was Approved
+Jun 20, 2016         EAC1690185953        I-539      Correspondence Was Received And USCIS Is Reviewing It
+Jun 19, 2016         EAC1690185973        I-539      Case Was Approved
+Jun 19, 2016         EAC1690185903        I-539      Case Was Approved
+Jun 18, 2016         EAC1690185929                   Card Was Delivered To Me By The Post Office
+Jun 17, 2016         EAC1690185971        I-539      Case Was Approved
+Jun 17, 2016         EAC1690185963        I-539      Case Was Approved
+Jun 15, 2016         EAC1690185978        I-131      Case Was Approved
+Jun 15, 2016         EAC1690185977        I-131      Case Was Approved
+Jun 3, 2016          EAC1690185965        I-539      Case Was Approved
+May 19, 2016         EAC1690185964        I-539      Case Was Approved
+May 18, 2016         EAC1690185960        I-539      Case Was Approved
+May 6, 2016          EAC1690185948        I-765      Case Was Transferred And A New Office Has Jurisdiction
+May 6, 2016          EAC1690185946        I-765      Case Was Transferred And A New Office Has Jurisdiction
+May 6, 2016          EAC1690185944        I-765      Case Transferred To Another Office
+May 6, 2016          EAC1690185918        I-765      Case Was Transferred And A New Office Has Jurisdiction
+May 6, 2016          EAC1690185915        I-765      Case Was Transferred And A New Office Has Jurisdiction
+May 6, 2016          EAC1690185914        I-765      Case Was Transferred And A New Office Has Jurisdiction
+Apr 25, 2016         EAC1690185999        I-765      Case Was Received
+Apr 25, 2016         EAC1690185998        I-539      Case Was Received
+Apr 25, 2016         EAC1690185996        I-765      Case Was Received
+Apr 25, 2016         EAC1690185995        I-765      Case Was Received
+Apr 25, 2016         EAC1690185994        I-765      Case Was Received
+Apr 25, 2016         EAC1690185993        I-539      Case Was Received
+Apr 25, 2016         EAC1690185991        I-539      Case Was Received
+Apr 25, 2016         EAC1690185990        I-539      Case Was Received
+Apr 25, 2016         EAC1690185989        I-539      Case Was Received
+Apr 25, 2016         EAC1690185987        I-539      Case Was Received
+Apr 25, 2016         EAC1690185985        I-539      Case Was Received
+Apr 25, 2016         EAC1690185983        I-539      Case Was Received
+Apr 25, 2016         EAC1690185979        I-131      Case Was Received
+Apr 25, 2016         EAC1690185976        I-539      Case Was Received
+Apr 25, 2016         EAC1690185974        I-539      Case Was Received
+Apr 25, 2016         EAC1690185972        I-539      Case Was Received
+Apr 25, 2016         EAC1690185962        I-539      Case Was Received
+Apr 25, 2016         EAC1690185959        I-539      Case Was Received
+Apr 25, 2016         EAC1690185957        I-539      Case Was Received
+Apr 25, 2016         EAC1690185955        I-539      Case Was Received
+Apr 25, 2016         EAC1690185952        I-539      Case Was Received
+Apr 25, 2016         EAC1690185945        I-102      Case Was Received
+Apr 25, 2016         EAC1690185936        I-765      Case Was Received
+Apr 25, 2016         EAC1690185935        I-765      Case Was Received
+Apr 25, 2016         EAC1690185934        I-765      Case Was Received
+Apr 25, 2016         EAC1690185933        I-539      Case Was Received
+Apr 25, 2016         EAC1690185932        I-765      Case Was Received
+Apr 25, 2016         EAC1690185930        I-765      Case Was Received
+Apr 25, 2016         EAC1690185928        I-765      Case Was Received
+Apr 25, 2016         EAC1690185925        I-539      Case Was Received
+Apr 25, 2016         EAC1690185924        I-765      Case Was Received
+Apr 25, 2016         EAC1690185922        I-765      Case Was Received
+Apr 25, 2016         EAC1690185921        I-765      Case Was Received
+Apr 25, 2016         EAC1690185920        I-765      Case Was Received
+Apr 25, 2016         EAC1690185919        I-539      Case Was Received
+Apr 25, 2016         EAC1690185917        I-102      Case Was Received
+Apr 25, 2016         EAC1690185916        I-102      Case Was Received
+Apr 25, 2016         EAC1690185911        I-539      Case Was Received
+Apr 25, 2016         EAC1690185908        I-539      Case Was Received
+Apr 25, 2016         EAC1690185907        I-539      Case Was Received
+Apr 25, 2016         EAC1690185905        I-539      Case Was Received
+Apr 25, 2016         EAC1690185902        I-539      Case Was Received
